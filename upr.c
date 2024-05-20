@@ -5,6 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <termios.h>
+#include <unistd.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
@@ -570,10 +571,8 @@ static int openPrinterPort (const char *port)
 }
 
 
-int main (int argc, char argv[])
+int main (const int argc, const char *argv[])
 {
-   int i;
-   
 // Fd = openPrinterPort ("/dev/ttyACM0");
    Fd = openPrinterPort ("/dev/ttyUSB1");
 // Fd = openPrinterPort ("/dev/ttyS2");
