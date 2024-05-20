@@ -19,4 +19,6 @@ effects such as boldface and underlining.
 Escape sequences are also used to send bit-mapped graphics to the
 printer.
 
+![Citizen CBM 1000 printer](CBM1000.jpg "Citizen CBM 1000 printer")
+
 Later versions of the printer have a USB interface built-in.
